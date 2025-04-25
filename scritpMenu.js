@@ -19,7 +19,7 @@
           origen: "Perú",
           ingredientes: "Papa, ají amarillo, queso fresco, leche, galletas saladas",
           precio: 18,
-          imagen: "https://cdn.pixabay.com/photo/2020/11/04/20/14/peruvian-food-5714710_1280.jpg",
+          imagen: "https://www.gourmet.cl/wp-content/uploads/2022/08/papas-a-la-huancaina-ajustada-web-570x458.jpg",
           comentarios: ["El sabor de la salsa es inigualable.", "Ideal para compartir."]
         },
         {
@@ -29,7 +29,7 @@
           origen: "Perú",
           ingredientes: "Papa amarilla, pollo/atún, ají, limón, mayonesa",
           precio: 20,
-          imagen: "https://cdn.pixabay.com/photo/2018/07/18/19/44/causa-3547085_1280.jpg",
+          imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRq6SGMOz__NYYnyfLBOh238ZoLyz87ebI8Q&s",
           comentarios: ["Presentación colorida.", "Textura suave y sabrosa."]
         },
         {
@@ -39,7 +39,7 @@
           origen: "Perú",
           ingredientes: "Corazón de res, ají panca, vinagre, comino, ajo",
           precio: 22,
-          imagen: "https://cdn.pixabay.com/photo/2017/09/25/18/58/anticuchos-2786414_1280.jpg",
+          imagen: "https://imag.bonviveur.com/servimos-los-anticuchos-con-las-patatas.jpg",
           comentarios: ["Sabor ahumado único.", "Perfecto para picar."]
         },
         {
@@ -49,7 +49,7 @@
           origen: "Venezuela",
           ingredientes: "Queso blanco, harina de trigo, huevo, aceite",
           precio: 16,
-          imagen: "https://cdn.pixabay.com/photo/2016/11/23/18/31/tequeos-1854241_1280.jpg",
+          imagen: "https://jameaperu.com/assets/images/tequenos_800x534.webp",
           comentarios: ["Crujientes por fuera.", "Queso derretido perfecto."]
         },
         {
@@ -59,7 +59,7 @@
           origen: "Argentina",
           ingredientes: "Carne picada, cebolla, huevo, aceitunas, masa",
           precio: 14,
-          imagen: "https://cdn.pixabay.com/photo/2017/03/01/19/14/empanadas-2109862_1280.jpg",
+          imagen: "https://comidasparaguayas.com/assets/images/empanada-de-carne_800x534.webp",
           comentarios: ["Relleno jugoso.", "Masa dorada perfecta."]
         },
         {
@@ -69,7 +69,7 @@
           origen: "México",
           ingredientes: "Masa de maíz, carne de cerdo, hoja de plátano, salsa",
           precio: 17,
-          imagen: "https://cdn.pixabay.com/photo/2017/06/29/20/50/mexican-food-2456038_1280.jpg",
+          imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS24BVNoo-tXvQwMxW7lsibGYLVMtd3AJJ6zYxkFDCgWOyhlrcur1UVhlNQT6A7tcH7S7GXYpSlfnvS0Azh6mv7FL1DtgR8zstDs1mAY9k",
           comentarios: ["Aroma increíble.", "Textura suave tradicional."]
         },
         {
@@ -79,7 +79,7 @@
           origen: "España",
           ingredientes: "Jamón ibérico, leche, harina, pan rallado, huevo",
           precio: 19,
-          imagen: "https://cdn.pixabay.com/photo/2017/09/25/18/58/croquettes-2786415_1280.jpg",
+          imagen: "https://offloadmedia.feverup.com/madridsecreto.co/wp-content/uploads/2023/12/14114831/croquetas-de-jamonmon-1024x683.jpg",
           comentarios: ["Cremosas por dentro.", "Sabor intenso a jamón."]
         },
         {
@@ -89,7 +89,7 @@
           origen: "Italia",
           ingredientes: "Pan rústico, tomate, ajo, albahaca, aceite de oliva",
           precio: 15,
-          imagen: "https://cdn.pixabay.com/photo/2016/08/01/16/30/bruschetta-1561705_1280.jpg",
+          imagen: "",
           comentarios: ["Frescura mediterránea.", "Perfecto para empezar."]
         },
         {
