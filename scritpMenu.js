@@ -223,7 +223,7 @@
           origen: "Perú",
           ingredientes: "Leche condensada, azúcar, huevo, vainilla",
           precio: 12,
-          imagen: "https://es.cravingsjournal.com/wp-content/uploads/2023/09/suspiro-de-limena-de-maracuya-1.jpg",
+          imagen: "https://images.aws.nestle.recipes/original/d4fb8c35f04a5ac1c4737b986d60c079_suspiro_1200x600.png",
           comentarios: ["Delicioso, cremoso y suave.", "Perfecto para los amantes de lo dulce."]
         },
         {
