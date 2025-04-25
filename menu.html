@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menú del Restaurante</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    body {
+      background-color: #f8f9fa;
+    }
+    .card:hover {
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+      transform: scale(1.02);
+      transition: 0.3s;
+    }
+    .filter-btn.active {
+      background-color: #198754 !important;
+      color: #fff !important;
+    }
+    .toast-container {
+      position: fixed;
+      top: 1rem;
+      right: 1rem;
+      z-index: 1050;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container py-5">
+    <h1 class="text-center mb-4">🍽️ Menú del Restaurante</h1>
+
+    <!-- Buscador y filtros -->
+    <div class="row mb-4 align-items-center">
+      <div class="col-md-6 mb-2 mb-md-0">
+        <input type="text" id="searchInput" class="form-control" placeholder="🔍 Buscar platillo...">
+      </div>
+      <div class="col-md-6 text-md-end text-center">
+        <div class="btn-group mb-2 mb-md-0" role="group">
+          <button class="btn btn-outline-success filter-btn active" data-filter="all">Todos</button>
+          <button class="btn btn-outline-success filter-btn" data-filter="entrada">Entradas</button>
+          <button class="btn btn-outline-success filter-btn" data-filter="fondo">Fondos</button>
+          <button class="btn btn-outline-success filter-btn" data-filter="postre">Postres</button>
+          <button class="btn btn-outline-success filter-btn" data-filter="bebida">Bebidas</button>
+        </div>
+        <button class="btn btn-warning ms-md-3 mt-2 mt-md-0" data-bs-toggle="modal" data-bs-target="#carritoModal">
+          🛒 Ver Pedido
+        </button>
+      </div>
+    </div>
+
+    <!-- Contenedor del menú -->
+    <div class="row" id="menuContainer"></div>
+  </div>
+
+  <!-- Modal Detalles -->
+  <div class="modal fade" id="detalleModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="detalleNombre"></h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+        </div>
+        <div class="modal-body">
+          <img id="detalleImagen" class="img-fluid rounded mb-3" alt="Imagen del platillo">
+          <p id="detalleDescripcion"></p>
+          <p><strong>Origen:</strong> <span id="detalleOrigen"></span></p>
+          <p><strong>Ingredientes:</strong> <span id="detalleIngredientes"></span></p>
+          <hr>
+          <h6>Comentarios:</h6>
+          <ul id="detalleComentarios" class="list-group mb-3"></ul>
+          <div class="input-group">
+            <input type="text" id="nuevoComentario" class="form-control" placeholder="Añadir un comentario...">
+            <button class="btn btn-outline-primary" onclick="agregarComentario()">Agregar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal Carrito -->
+  <div class="modal fade" id="carritoModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">🛒 Carrito de Pedidos</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+        </div>
+        <div class="modal-body" id="carritoBody">
+          <p class="text-muted">Tu carrito está vacío.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notificación -->
+  <div class="toast-container">
+    <div class="toast align-items-center text-bg-success" id="successToast" role="alert">
+      <div class="d-flex">
+        <div class="toast-body">
+          ¡Agregado exitosamente al pedido!
+        </div>
+        <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast"></button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script src="scritpMenu.js"></script>
+</body>
+</html>
