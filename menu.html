@@ -4,32 +4,33 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Menú del Restaurante</title>
-
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-
-  <style>
-    body {
-      background-color: #f8f9fa;
-    }
-    .card:hover {
-      box-shadow: 0 0 15px rgba(0,0,0,0.1);
-      transform: scale(1.02);
-      transition: 0.3s;
-    }
-    .filter-btn.active {
-      background-color: #198754 !important;
-      color: #fff !important;
-    }
-    .toast-container {
-      position: fixed;
-      top: 1rem;
-      right: 1rem;
-      z-index: 1050;
-    }
-  </style>
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="index.html">Restaurante Sabor y Tradición</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="menu.html">Menú</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="ContacForm.html">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div style="height: 80px;"></div>
 
   <div class="container py-5">
     <h1 class="text-center mb-4">🍽️ Menú del Restaurante</h1>
@@ -108,10 +109,85 @@
       </div>
     </div>
   </div>
-
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 mb-4">
+                <h4>Lo que ofrecemos</h4>
+                <ul class="footer-menu">
+                    <li><a href="#">Pizzas</a></li>
+                    <li><a href="#">Hamburguezas</a></li>
+                    <li><a href="#">Ensaladas</a></li>
+                    <li><a href="#">Bebidas</a></li>
+                    <li><a href="#">Mariscos</a></li>
+                    <li><a href="#">Copteles</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3 mb-4">
+                <h4>Informacion</h4>
+                <ul class="footer-menu">
+                    <li><a href="#">Sobre Nosotros</a></li>
+                    <li><a href="#">Ultimas Noticias</a></li>
+                    <li><a href="#">Nuestro Menu</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Comercio </a></li>
+                    <li><a href="#">Contactanos</a></li>
+                </ul>
+            </div>
+            <div class="col-md-6 mb-4">
+              <h4 class="mb-3">Hoja Informativa</h4>
+              <p class="mb-4">Regístrate hoy para recibir las últimas noticias y actualizaciones.</p>
+              <form class="subscribe-form">
+                  <div class="input-group">
+                      <input type="email" class="form-control" placeholder="Ingresa tu correo electrónico" required>
+                      <button class="btn btn-primary btn-sm" type="submit">Suscribirse</button>
+                  </div>
+              </form>
+          </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <div class="row align-items-center">
+                <div class="col-md-4 mb-3 mb-md-0">
+                    <a href="#" class="navbar-brand text-white">
+                        <span class="logo-text">Sabor y <span style="color: #000000;">Tradición</span></span>
+                      
+                    </a>
+                    <span class="ms-3 text-light">9.4K</span>
+                </div>
+                <div class="col-md-4 mb-3 mb-md-0 text-center text-md-start">
+                    <div class="footer-info d-md-flex">
+                        <span class="me-3"><i class="fas fa-phone me-2"></i>+1 718-999-3939</span>
+                        <span><i class="fas fa-envelope me-2"></i>info@demolink.org</span>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center text-md-end">
+                    <div class="footer-social">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row mt-3">
+                <div class="col-md-12 text-center text-md-start">
+                    <p class="footer-info mb-0">514 S. Magnolia St. Orlando, FL 32806</p>
+                </div>
+            </div>
+            
+            <div class="row mt-3">
+                <div class="col-md-12 text-center">
+                    <p class="footer-info mb-0">© 2025. Todo los derechos Reservados</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
   <!-- Bootstrap JS -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-
   <script src="scritpMenu.js"></script>
 </body>
 </html>
