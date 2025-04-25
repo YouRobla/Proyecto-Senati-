@@ -1,0 +1,134 @@
+body {
+    background-color: #f5f7fa;
+    color: #1a1a1a;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
+}
+.navbar {
+    background: linear-gradient(90deg, #003087, #00aaff);
+    padding: 15px 0;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+.navbar-brand {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.8rem;
+    color: #fff !important;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.nav-link {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: #fff !important;
+    text-transform: uppercase;
+    margin: 0 15px;
+    transition: transform 0.3s, color 0.3s;
+}
+.nav-link:hover {
+    color: #e0e0e0 !important;
+    transform: scale(1.1);
+}
+.hero-section {
+    background: url('URL_IMAGEN_FONDO_HERO') no-repeat center center/cover;
+    padding: 120px 0;
+    text-align: center;
+    position: relative;
+    color: #fff;
+}
+.hero-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 48, 135, 0.75);
+}
+.hero-section h1, .hero-section p, .hero-section .btn {
+    position: relative;
+    z-index: 1;
+}
+.hero-section h1 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 3.5rem;
+    letter-spacing: 3px;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+.hero-section p {
+    font-size: 1.25rem;
+    max-width: 600px;
+    margin: 0 auto;
+}
+.about-section, .gallery-section, .testimonials-section, .chef-section, .events-section, .specialties-section {
+    padding: 100px 0;
+    background: linear-gradient(180deg, #ffffff, #f5f7fa);
+}
+.footer {
+    background: linear-gradient(90deg, #003087, #00aaff);
+    color: #fff;
+    padding: 60px 0;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+.card {
+    border: none;
+    background: #fff;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s, box-shadow 0.3s;
+    border-radius: 15px;
+}
+.card:hover {
+    transform: translateY(-12px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+.btn-primary {
+    background: #00aaff;
+    border: none;
+    font-family: 'Orbitron', sans-serif;
+    padding: 12px 30px;
+    font-size: 1.1rem;
+    transition: background 0.3s, transform 0.3s;
+}
+.btn-primary:hover {
+    background: #003087;
+    transform: scale(1.05);
+}
+.gallery-img {
+    object-fit: cover;
+    height: 300px;
+    width: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+.gallery-img:hover {
+    transform: scale(1.05);
+}
+h2 {
+    font-family: 'Orbitron', sans-serif;
+    color: #003087;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 40px;
+    letter-spacing: 2px;
+}
+h3 {
+    font-family: 'Orbitron', sans-serif;
+    color: #003087;
+    font-size: 1.8rem;
+}
+.futuristic-border {
+    border: 2px solid #00aaff;
+    border-radius: 20px;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+.social-icons a {
+    color: #fff;
+    font-size: 1.5rem;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+.social-icons a:hover {
+    color: #e0e0e0;
+}
