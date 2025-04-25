@@ -131,7 +131,7 @@
           origen: "Perú",
           ingredientes: "Arroz, calamar, camarones, mejillones, ají panca",
           precio: 35,
-          imagen: "https://cdn.pixabay.com/photo/2018/07/18/19/44/seafood-3547084_1280.jpg",
+          imagen: "https://tofuu.getjusto.com/orioneat-local/resized2/HFvYWCH77LHbJEnSL-2400-x.webp",
           comentarios: ["Sabor a mar intenso.", "Mariscos frescos."]
         },
         {
@@ -141,7 +141,7 @@
           origen: "Perú",
           ingredientes: "Pollo, romero, ají panca, cerveza negra, sal",
           precio: 30,
-          imagen: "https://cdn.pixabay.com/photo/2017/09/03/18/38/grilled-chicken-2711689_1280.jpg",
+          imagen: "https://blog.sanfernando.pe/wp-content/uploads/2023/07/banner_3.jpg",
           comentarios: ["Piel crujiente.", "Jugoso por dentro."]
         },
         {
@@ -151,7 +151,7 @@
           origen: "Perú",
           ingredientes: "Cordero, culantro, frejoles, chicha de jora, ají mirasol",
           precio: 38,
-          imagen: "https://cdn.pixabay.com/photo/2020/11/04/20/14/lamb-5714711_1280.jpg",
+          imagen: "https://cocinaperuana.espaciolatino.com/recetas-de-cordero/img600/seco-cabrito.jpg",
           comentarios: ["Carne tierna.", "Salsa espectacular."]
         },
         {
@@ -161,7 +161,7 @@
           origen: "Italia",
           ingredientes: "Pasta, huevo, panceta, queso parmesano, pimienta",
           precio: 28,
-          imagen: "https://cdn.pixabay.com/photo/2018/07/18/19/43/pasta-3547078_1280.jpg",
+          imagen: "https://static01.nyt.com/images/2021/02/14/dining/carbonara-horizontal/carbonara-horizontal-mediumSquareAt3X-v2.jpg",
           comentarios: ["Cremosidad perfecta.", "Auténtico sabor italiano."]
         },
         {
@@ -171,7 +171,7 @@
           origen: "España",
           ingredientes: "Arroz, azafrán, mariscos, pollo, conejo, judías",
           precio: 42,
-          imagen: "https://cdn.pixabay.com/photo/2017/02/21/11/12/paella-2085831_1280.jpg",
+          imagen: "https://www.paulinacocina.net/wp-content/uploads/2023/09/paella-valenciana-tradicional-1200x675.jpg",
           comentarios: ["Socarrat perfecto.", "Sabores bien integrados."]
         },
         {
@@ -181,7 +181,7 @@
           origen: "Brasil",
           ingredientes: "Frijoles negros, carne de cerdo, chorizo, costilla",
           precio: 36,
-          imagen: "https://cdn.pixabay.com/photo/2018/01/22/18/03/feijoada-3099750_1280.jpg",
+          imagen: "https://hortabomdemais.com/wp-content/uploads/2024/04/Depositphotos_389116934_L.jpg",
           comentarios: ["Plato contundente.", "Sabor ahumado único."]
         },
         {
@@ -191,7 +191,7 @@
           origen: "México",
           ingredientes: "Carne de cerdo, piña, tortillas, cebolla, cilantro",
           precio: 24,
-          imagen: "https://cdn.pixabay.com/photo/2017/06/29/20/50/tacos-2456037_1280.jpg",
+          imagen: "https://comedera.com/wp-content/uploads/sites/9/2017/08/tacos-al-pastor-receta.jpg",
           comentarios: ["Marinado perfecto.", "Equilibrio dulce-salado."]
         },
         {
@@ -201,7 +201,7 @@
           origen: "Grecia",
           ingredientes: "Berenjena, carne molida, tomate, bechamel, queso",
           precio: 32,
-          imagen: "https://cdn.pixabay.com/photo/2017/06/30/04/58/moussaka-2457316_1280.jpg",
+          imagen: "https://www.recipetineats.com/tachyon/2019/03/Greek-Moussaka_3-re-edited-SQ.jpg",
           comentarios: ["Capas de sabor.", "Bechamel dorada perfecta."]
         },
       
@@ -213,7 +213,7 @@
           origen: "Internacional",
           ingredientes: "Harina, cacao, azúcar, huevos, mantequilla",
           precio: 15,
-          imagen: "https://cdn.pixabay.com/photo/2017/05/07/08/56/cake-2292717_1280.jpg",
+          imagen: "https://www.recetasnestle.com.ve/sites/default/files/srh_recipes/e2928ff551a360cdadb4e5a2528841b7.jpg",
           comentarios: ["Muy dulce, me encantó!", "Perfecta para el postre."]
         },
         {
@@ -223,7 +223,7 @@
           origen: "Perú",
           ingredientes: "Leche condensada, azúcar, huevo, vainilla",
           precio: 12,
-          imagen: "https://cdn.pixabay.com/photo/2018/12/19/10/42/dessert-3883783_1280.jpg",
+          imagen: "https://es.cravingsjournal.com/wp-content/uploads/2023/09/suspiro-de-limena-de-maracuya-1.jpg",
           comentarios: ["Delicioso, cremoso y suave.", "Perfecto para los amantes de lo dulce."]
         },
         {
@@ -233,7 +233,7 @@
           origen: "EE.UU.",
           ingredientes: "Queso crema, galletas, frutos rojos, azúcar",
           precio: 18,
-          imagen: "https://cdn.pixabay.com/photo/2018/05/02/12/20/cheesecake-3368750_1280.jpg",
+          imagen: "https://cncsalud.com/wp-content/uploads/2023/01/Cheesecake.jpg",
           comentarios: ["Equilibrio perfecto.", "Base crujiente ideal."]
         },
         {
@@ -243,7 +243,7 @@
           origen: "Perú",
           ingredientes: "Camote, zapallo, harina, anís, miel de chancaca",
           precio: 10,
-          imagen: "https://cdn.pixabay.com/photo/2020/11/04/20/14/donuts-5714712_1280.jpg",
+          imagen: "https://www.peru.travel/Contenido/General/Imagen/es/301/1.1/picarones.jpg",
           comentarios: ["Esponjosos por dentro.", "Miel tradicional deliciosa."]
         },
         {
