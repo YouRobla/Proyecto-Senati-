@@ -20,53 +20,30 @@
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         }
         
-        /* Header styles */
         .navbar {
-            padding: 15px 0;
-            background-color: #fff !important;
-        }
-        
-        .navbar-brand {
-            font-weight: bold;
-            font-size: 24px;
-        }
-        
-        .navbar-brand span {
-            color: var(--primary);
-        }
-        
-        .logo-text {
-            font-family: 'Pacifico', cursive;
-            font-size: 28px;
-        }
-        
-        .free-badge {
-            background-color: var(--primary);
-            color: #333;
-            font-size: 12px;
-            padding: 2px 8px;
-            border-radius: 4px;
-            margin-left: 5px;
-            vertical-align: middle;
-        }
-        
-        .nav-link {
-            font-weight: 500;
-            color: var(--dark) !important;
-            margin: 0 10px;
-            position: relative;
-        }
-        
-        .nav-link.active::after {
-            content: '';
-            position: absolute;
-            width: 100%;
-            height: 3px;
-            background-color: #6f42c1;
-            bottom: -8px;
-            left: 0;
-        }
-        
+    background: linear-gradient(90deg, #003087, #00aaff);
+    padding: 15px 0;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+.navbar-brand {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.8rem;
+    color: #fff !important;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.nav-link {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: #fff !important;
+    text-transform: uppercase;
+    margin: 0 15px;
+    transition: transform 0.3s, color 0.3s;
+}
+.nav-link:hover {
+    color: #e0e0e0 !important;
+    transform: scale(1.1);
+}
         /* Hero section styles */
         .hero {
             background-image: url('/api/placeholder/1200/400');
@@ -300,29 +277,23 @@
     </style>
 </head>
 <body>
-    <!-- Navigation Bar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="#">
-                <span class="logo-text">Sabor y <span style="color: #6f42c1;">Tradición</span></span>
-                <span class="free-badge">Free</span>
-            </a>
+            <a class="navbar-brand" href="index.html">Restaurante Sabor y Tradición</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#home">Home</a>
+                        <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#about">About us</a>
+                        <a class="nav-link" href="menu.html">Menú</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#typography">Typography</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#contacts">Contacts</a>
+                        <a class="nav-link" href="ContacForm.html">Contacto</a>
                     </li>
                 </ul>
             </div>
@@ -448,7 +419,7 @@
                     <div class="col-md-4 mb-3 mb-md-0">
                         <a href="#" class="navbar-brand text-white">
                             <span class="logo-text">Sabor y <span style="color: #6f42c1;">Tradición</span></span>
-                            <span class="free-badge">Free</span>
+                  
                         </a>
                         <span class="ms-3 text-light">9.4K</span>
                     </div>

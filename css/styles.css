@@ -64,11 +64,40 @@ body {
     background: linear-gradient(180deg, #ffffff, #f5f7fa);
 }
 .footer {
-    background: linear-gradient(90deg, #003087, #00aaff);
+    background-color: #333;
     color: #fff;
-    padding: 60px 0;
-    font-family: 'Montserrat', sans-serif;
-    text-align: center;
+    padding: 50px 0 20px;
+}
+
+.footer h4 {
+    font-size: 20px;
+    margin-bottom: 25px;
+    color: #fff;
+}
+
+.footer-menu {
+    list-style: none;
+    padding-left: 0;
+}
+
+.footer-menu li {
+    margin-bottom: 10px;
+}
+
+.footer-menu a {
+    color: #ccc;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-menu a:hover {
+    color: var(--primary);
+}
+
+.footer-social a {
+    color: #fff;
+    margin-right: 15px;
+    font-size: 18px;
 }
 .card {
     border: none;
