@@ -273,7 +273,7 @@
           origen: "Perú/Argentina",
           ingredientes: "Harina, maicena, mantequilla, manjar blanco",
           precio: 8,
-          imagen: "https://cdn.pixabay.com/photo/2018/05/02/12/20/alfajores-3368749_1280.jpg",
+          imagen: "https://th.bing.com/th/id/OIP.TlyEw4xFlGN5wUkA5TRGkgHaE8?w=282&h=188&c=7&r=0&o=5&pid=1.7",
           comentarios: ["Delicados y dulces.", "Relleno cremoso."]
         },
         {
@@ -283,7 +283,7 @@
           origen: "EE.UU.",
           ingredientes: "Galletas, limón, leche condensada, merengue",
           precio: 14,
-          imagen: "https://cdn.pixabay.com/photo/2017/03/20/15/13/lemon-pie-2158771_1280.jpg",
+          imagen: "https://th.bing.com/th/id/OIP.IjIoZBa37XByrP8rYFxJoAHaEL?w=289&h=180&c=7&r=0&o=5&pid=1.7",
           comentarios: ["Acidez equilibrada.", "Merengue tostado perfecto."]
         },
         {
@@ -293,7 +293,7 @@
           origen: "España",
           ingredientes: "Harina, agua, sal, azúcar, chocolate",
           precio: 11,
-          imagen: "https://cdn.pixabay.com/photo/2017/09/25/18/58/churros-2786416_1280.jpg",
+          imagen: "https://th.bing.com/th/id/OIP.7l8pHlMy2S58KAZPKzsh9AHaFj?w=247&h=185&c=7&r=0&o=5&pid=1.7",
           comentarios: ["Crujientes por fuera.", "Chocolate espeso ideal."]
         },
         {
@@ -303,7 +303,7 @@
           origen: "Perú",
           ingredientes: "Maíz morado, membrillo, frutas secas, canela",
           precio: 9,
-          imagen: "https://cdn.pixabay.com/photo/2020/11/04/20/14/purple-corn-5714713_1280.jpg",
+          imagen: "https://th.bing.com/th/id/OIP.3anK9-t_UTdnBg3NH1kaswHaEF?w=310&h=180&c=7&r=0&o=5&pid=1.7",
           comentarios: ["Dulce tradicional.", "Textura reconfortante."]
         },
       
@@ -315,7 +315,7 @@
           origen: "Perú",
           ingredientes: "Maíz morado, piña, canela, clavo",
           precio: 8,
-          imagen: "https://cdn.pixabay.com/photo/2021/08/06/15/28/drink-6525518_1280.jpg",
+          imagen: "https://th.bing.com/th/id/OIP.eUFFwkXa8cv0YWEViKFo6gHaE8?w=272&h=182&c=7&r=0&o=5&pid=1.7",
           comentarios: ["Refrescante y natural.", "Un clásico peruano."]
         },
         {
@@ -325,7 +325,7 @@
           origen: "Perú",
           ingredientes: "Agua carbonatada, azúcar, colorante amarillo",
           precio: 6,
-          imagen: "https://cdn.pixabay.com/photo/2018/11/06/14/55/inca-kola-3807251_1280.jpg",
+          imagen: "https://th.bing.com/th/id/OIP.icTUXnx4yw1PkCc00Trf-AHaFX?w=234&h=180&c=7&r=0&o=5&pid=1.7",
           comentarios: ["Sabor único y refrescante.", "Mejor acompañante para platos peruanos."]
         },
         {
@@ -335,7 +335,7 @@
           origen: "Perú",
           ingredientes: "Pisco, limón, clara de huevo, jarabe de goma, amargo de angostura",
           precio: 18,
-          imagen: "https://cdn.pixabay.com/photo/2017/06/21/17/35/pisco-sour-2428929_1280.jpg",
+          imagen: "https://th.bing.com/th/id/OIP.ofpbYwHI1x_u2wm8kl_zUQHaE8?w=222&h=180&c=7&r=0&o=5&pid=1.7",
           comentarios: ["Equilibrio perfecto.", "Espuma consistente."]
         },
         {
@@ -345,7 +345,7 @@
           origen: "Perú",
           ingredientes: "Maracuyá, agua, azúcar",
           precio: 7,
-          imagen: "https://cdn.pixabay.com/photo/2017/03/31/18/02/passion-fruit-2192028_1280.jpg",
+          imagen: "https://th.bing.com/th/id/OIP.ex0JEroO7VhEIRr651SlKwHaEK?w=293&h=180&c=7&r=0&o=5&pid=1.7",
           comentarios: ["Acidez refrescante.", "Natural sin conservantes."]
         },
         {
@@ -355,7 +355,7 @@
           origen: "Perú",
           ingredientes: "Agua, malta, lúpulo, levadura",
           precio: 12,
-          imagen: "https://cdn.pixabay.com/photo/2017/09/25/18/58/beer-2786417_1280.jpg",
+          imagen: "https://th.bing.com/th/id/OIP.JKLGJSi5I52XfTkm3oDY2wHaEo?w=303&h=189&c=7&r=0&o=5&pid=1.7",
           comentarios: ["Amargor equilibrado.", "Aroma a cítricos."]
         },
         {
@@ -365,7 +365,7 @@
           origen: "Perú",
           ingredientes: "Hojas de coca, agua",
           precio: 5,
-          imagen: "https://cdn.pixabay.com/photo/2018/01/22/18/03/mate-3099751_1280.jpg",
+          imagen: "https://th.bing.com/th/id/OIP.JNolEiknqk5hHFTdOagaRwHaE8?w=288&h=192&c=7&r=0&o=5&pid=1.7",
           comentarios: ["Alivia el soroche.", "Sabor herbal suave."]
         },
         {
@@ -375,7 +375,7 @@
           origen: "Cuba",
           ingredientes: "Ron blanco, lima, menta, azúcar, soda",
           precio: 16,
-          imagen: "https://cdn.pixabay.com/photo/2017/09/25/18/58/mojito-2786418_1280.jpg",
+          imagen: "https://th.bing.com/th/id/OIP.YJsZs6LauICeg9pNyYZBsQHaE6?w=279&h=185&c=7&r=0&o=5&pid=1.7",
           comentarios: ["Refrescante y herbáceo.", "Perfecto para el verano."]
         },
         {
@@ -385,7 +385,7 @@
           origen: "Perú",
           ingredientes: "Granos de café, agua",
           precio: 8,
-          imagen: "https://cdn.pixabay.com/photo/2018/01/22/18/03/coffee-3099752_1280.jpg",
+          imagen: "https://th.bing.com/th/id/OIP.sjo4eCcADCMBnokTWYtGDQHaEK?w=329&h=185&c=7&r=0&o=5&pid=1.7",
           comentarios: ["Aroma intenso.", "Acidez balanceada."]
         },
         {
@@ -395,7 +395,7 @@
           origen: "Perú",
           ingredientes: "Pisco, ginger ale, limón, amargo de angostura",
           precio: 15,
-          imagen: "https://cdn.pixabay.com/photo/2021/08/06/15/28/cocktail-6525519_1280.jpg",
+          imagen: "https://th.bing.com/th/id/OIP.d1Ik9texSnNjfyWR820bnwHaE8?w=270&h=180&c=7&r=0&o=5&pid=1.7",
           comentarios: ["Burbujas refrescantes.", "Sabor cítrico destacado."]
         },
         {
@@ -405,7 +405,7 @@
           origen: "Perú",
           ingredientes: "Hierbas, linaza, cebada, limón",
           precio: 6,
-          imagen: "https://cdn.pixabay.com/photo/2018/01/22/18/03/herbal-tea-3099753_1280.jpg",
+          imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdUUlR3QfffrghAZqqiPB2JpAUBN9pJVo-9w&s",
           comentarios: ["Reconfortante.", "Propiedades digestivas."]
         }
       ];
